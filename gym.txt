@@ -1,0 +1,9 @@
+LCD Fit,Iscte,135
+1,Samuel Massas,30,True
+2,Maria,0,True
+3,Ana,0,False
+4,Arnaldo,7,False
+Kombat,Jackie Chan,30
+Abs,Miguel Tanque,20
+Abs,Raquel Seco,20
+Pump!,Marta Ferro,25
