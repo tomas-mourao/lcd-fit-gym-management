@@ -1,26 +1,32 @@
-# lcd-fit-gym-management
+# LCD Fit – Gym Management System
 
-Projeto da cadeira de **Programação** (1º ano, 1º semestre, Ciência de Dados, ISCTE). Aplicação de consola em Python para gerir um ginásio, o **LCD Fit**: membros, aulas, entradas e subscrições.
+Console application in Python for managing a gym, **LCD Fit**: members, classes, entry passes and subscriptions.
 
-## Funcionalidades
-- **Membros**: criar e identificar membros, comprar entradas e ativar ou desativar a subscrição.
-- **Aulas**: criar aulas com instrutor e lotação, inscrever e remover membros.
-- **Menu de gestão**: adicionar membros e aulas, pesquisar com filtros.
-- **Menu do membro**: ver e gerir as próprias entradas e inscrições.
-- **Persistência**: exportar e importar o estado do ginásio para ficheiro de texto.
+> **Course:** Programming · BSc in Data Science, ISCTE · Year 1, Semester 1
 
-O código usa programação orientada a objetos, com as classes `Membro`, `Aula` e `Gym`.
+## Features
+- **Members:** create and identify members, buy entry passes, activate or deactivate subscriptions.
+- **Classes:** create classes with an instructor and a capacity, enrol and remove members.
+- **Admin menu:** add members and classes, search with filters.
+- **Member menu:** view and manage your own passes and enrolments.
+- **Persistence:** export and import the gym state to and from a text file.
 
-## Como executar
-Requer Python 3.
+The code is object-oriented, built around the `Membro` (member), `Aula` (class) and `Gym` classes.
 
+## Tech stack
+Python 3 (standard library only)
+
+## How to run
 ```bash
-python 1º_Projeto.py
+python gym_manager.py
 ```
 
-Para carregar dados de exemplo, importa o ficheiro `gym.txt` a partir do menu principal.
+To load sample data, import `gym.txt` from the main menu.
 
-## Ficheiros
-- `1º_Projeto.py` – código da aplicação
-- `gym.txt` – dados de exemplo (membros e aulas)
-- `projeto_programacao.zip` – cópia do projeto entregue
+> The console interface is in Portuguese.
+
+## Project structure
+| File | Description |
+|------|-------------|
+| `gym_manager.py` | Application source code |
+| `gym.txt` | Sample data (members and classes) |
